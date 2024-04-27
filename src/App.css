@@ -1,0 +1,24 @@
+* {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.forBG {
+  background: linear-gradient(180deg, rgba(6, 40, 110, 1) 30%, rgba(22, 78, 192, 1) 100%);
+}
+
+.forColor {
+  background: linear-gradient(180deg, rgba(6, 40, 110, 1) 40%, rgba(22, 78, 192, 1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.carouselImg .img {
+  background: linear-gradient(212deg, rgba(6, 28, 147, 1) 28%, rgba(32, 130, 237, 1) 100%);
+}
+
+.forBorder {
+  border-image-source: linear-gradient(180deg, rgba(6, 40, 110, 1) 40%, rgba(22, 78, 192, 1) 100%);
+  border-image-slice: 1;
+}
